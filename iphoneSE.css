@@ -1,0 +1,122 @@
+@media (max-width: 375px), (max-height: 667px) {
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .block-1 {
+    width: 170px;
+    height: 200px;
+    background-color: rgb(226, 133, 37);
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(255, 215, 170);
+  }
+  .block-2 {
+    width: 170px;
+    height: 200px;
+    background-color: rgb(1, 104, 114);
+    color: rgb(109, 187, 191);
+  }
+  .block-3 {
+    width: 170px;
+    height: 200px;
+    background-color: rgb(0, 64, 63);
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(144, 190, 190);
+  }
+  .block-1 img {
+    width: 22px;
+    height: 14px;
+    padding: 20px;
+  }
+  .block-2 img {
+    width: 22px;
+    height: 14px;
+    padding: 20px;
+  }
+  .block-3 img {
+    width: 22px;
+    height: 14px;
+    padding: 20px;
+  }
+  .title {
+    font-family: "big shoulders display";
+    font-size: 16px;
+    color: white;
+    margin: -20px 0 0 22px;
+  }
+  .subtitle {
+    font-family: "lexend deca";
+    padding: 22px;
+    margin-top: -18px;
+    font-size: 9px;
+    line-height: 15px;
+  }
+  #button-1 {
+    color: rgb(226, 133, 37);
+    background-color: white;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 400;
+    padding: 2px;
+    width: 70px;
+    font-family: "lexend deca";
+    margin: -10px 0 0 18px;
+    cursor: pointer;
+    border: 3px solid white;
+  }
+  #button-2 {
+    color: rgb(1, 104, 114);
+    background-color: white;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 400;
+    padding: 2px;
+    width: 70px;
+    font-family: "lexend deca";
+    margin: -10px 0 0 18px;
+    cursor: pointer;
+    border: 3px solid white;
+  }
+  #button-3 {
+    color: rgb(0, 64, 63);
+    background-color: white;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 400;
+    padding: 2px;
+    width: 70px;
+    font-family: "lexend deca";
+    margin: -10px 0 0 18px;
+    cursor: pointer;
+    border: 3px solid white;
+  }
+  #button-1:hover {
+    color: white;
+    background-color: rgb(226, 133, 37);
+  }
+  #button-2:hover {
+    color: white;
+    background-color: rgb(1, 104, 114);
+  }
+  #button-3:hover {
+    color: white;
+    background-color: rgb(0, 64, 63);
+  }
+}

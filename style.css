@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .block-1 {
+    width: 390px;
+    height: 620px; 
+    background-color: rgb(226,133,37);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: rgb(255,215,170);
+  }
+  .block-2 {
+    width: 390px;
+    height: 620px; 
+    background-color: rgb(1,104,114);
+    color: rgb(109,187,191);
+  }
+  .block-3 {
+    width: 390px;
+    height: 620px; 
+    background-color: rgb(0,64,63);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(144,190,190);
+  }
+  .block-1 img {
+    width: 80px;
+    height: 50px;
+    padding: 60px;
+  }
+  .block-2 img {
+    width: 80px;
+    height: 50px;
+    padding: 60px;
+  }
+  .block-3 img {
+    width: 80px;
+    height: 50px;
+    padding: 60px;
+  }
+  .title {
+    font-family: 'big shoulders display';
+    font-size: 48px;
+    color: white;
+    margin: -30px 0 0 62px;
+  }
+  .subtitle {
+    font-family: 'lexend deca';
+    padding: 60px;
+    margin-top: -20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+ #button-1 {
+  color: rgb(226,133,37);
+  background-color: white;
+  text-align: center;
+  border-radius: 35px;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px;
+  width: 130px;
+  font-family: 'lexend deca';
+  margin: 50px 0 0 60px;
+  cursor: pointer;
+  border: 3px solid white;
+ }
+ #button-2 {
+  color: rgb(1,104,114);
+  background-color: white;
+  text-align: center;
+  border-radius: 35px;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px;
+  width: 130px;
+  font-family: 'lexend deca';
+  margin: 50px 0 0 60px;
+  cursor: pointer;
+  border: 3px solid white;
+ }
+ #button-3 {
+  color: rgb(0,64,63);
+  background-color: white;
+  text-align: center;
+  border-radius: 35px;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px;
+  width: 130px;
+  font-family: 'lexend deca';
+  margin: 50px 0 0 60px;
+  cursor: pointer;
+  border: 3px solid white;
+ }
+ #button-1:hover {
+  color: white;
+  background-color: rgb(226,133,37);
+ }
+ #button-2:hover {
+  color: white;
+  background-color: rgb(1,104,114);
+ }
+ #button-3:hover {
+  color: white;
+  background-color: rgb(0,64,63);
+ }
+ 
+  
